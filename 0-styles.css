@@ -1,0 +1,99 @@
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --strong-grey: #979797;
+    --light_grey: #D8D8D8;
+    --ored: #FF6565;
+}
+
+@font-face {
+    font-family: myfont_bold;
+    src: url("./fonts/SourceSansPro-Bold.otf");
+}
+
+@font-face {
+    font-family: myfont_normal;
+    src: url("./fonts/SourceSansPro-Regular.otf");
+}
+
+p{
+    font-family: myfont_normal;
+}
+
+h1{
+    font-family: myfont_bold;
+}
+h3{
+    font-family: myfont_bold;
+    
+}
+
+body{
+    width: 100vw;
+    height: 100%;
+}
+
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    align-items: center;
+    background-image: url("./Assets/images/headphones_hero_1.jpg");
+    flex-direction: column;
+}
+
+.container {
+    width: 1000.39px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    flex-direction: initial ;
+    margin: 2%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 255px;
+}
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 45%;
+    position: relative;
+    top: 30%;
+}
+
+.header1{
+    color: var(--white);
+}
+
+.para{
+    color: var(--white);
+}
+.button{
+    width: 162px;
+    height: 44px;
+    color: var(--white);
+    border-radius: 22px;
+    border-color: transparent;
+    background: #FF6565;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+.para2{
+    color: var(--white);
+    text-align: center;
+}
